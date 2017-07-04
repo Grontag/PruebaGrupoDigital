@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/grismuyclaro">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="3dp"/>
+
+    <TextView
+        android:id="@+id/fechanac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fechanac"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginStart="3dp"/>
+
+    <TextView
+        android:id="@+id/idtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text=""
+        android:layout_marginStart="5dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/naranja"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="3dp"/>
+
+    <TextView
+        android:id="@+id/nombretv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nombre"
+        android:layout_alignBaseline="@+id/nombre"
+        android:layout_toEndOf="@+id/nombre"
+        android:text=""
+        android:layout_marginStart="5dp"/>
+
+    <TextView
+        android:id="@+id/fechanactv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fechanac"
+        android:layout_toEndOf="@+id/fechanac"
+        android:text=""
+        android:layout_marginStart="5dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/negro" />
+
+
+</RelativeLayout>

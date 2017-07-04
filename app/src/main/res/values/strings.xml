@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Grupo Digital</string>
+    <string name="waitplease">Un momento, por favor</string>
+    <string name="fetchingdata">Obteniendo datos</string>
+    <string name="nointernet">No tiene Internet. Consiga una conexión, y vuelva a intentarlo.</string>
+    <string name="alert">¡Atención!</string>
+    <string name="ok">OK</string>
+    <string name="unknownname">Nombre desconocido</string>
+    <string name="falloservidor">Parece que el servidor no responde. Vuelva a intentarlo más tarde.</string>
+    <string name="id">Id. del estudiante:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="fechanac">Fecha de nacimiento:</string>
+    <string name="studentdata">Datos del alumno</string>
+    <string name="preferences">preferences</string>
+    <string name="cancel">Cancelar</string>
+    <string name="entrydata">Introduzca los datos del alumno</string>
+    <string name="addok">Estudiante añadido.</string>
+    <string name="addnotok">No se ha podido añadir al estudiante. Inténtelo de nuevo más tarde.</string>
+</resources>
